@@ -474,6 +474,7 @@ Version      : 1.0
             ease: 'power2.out'
         });
     });
+    
 
     // Hover effect on elements
     const hoverElements = document.querySelectorAll('a');

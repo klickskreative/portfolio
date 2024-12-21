@@ -65,7 +65,7 @@ body {
     font-size: 16px;
     font-family: var(--text-font);
     overflow-x: hidden;
-
+    cursor: none;
 }
 
 
@@ -838,7 +838,7 @@ html {
 }
 
 .logo img {
-    width: 70px;
+    width: 150px;
 }
 
 .main-menu {
@@ -859,22 +859,6 @@ html {
     padding-right: 14px;
 }
 
-.main-menu ul li.has-dropdown>a:after {
-    position: absolute;
-    content: "\f107";
-    right: -4px;
-    top: 10px;
-    font-size: 16px;
-    color: var(--main-color);
-    font-family: "Font Awesome 6 Pro";
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.main-menu ul li .sub-menu li.has-dropdown>a:after {
-    right: 15px;
-    top: 6px;
-}
 
 .main-menu ul li a {
     font-size: 15px;
@@ -993,32 +977,8 @@ html {
     white-space: nowrap;
 }
 
-.linkstyle:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background: var(--main-color);
-    top: 100%;
-    left: 0;
-    pointer-events: none;
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-    -webkit-transform: scale3d(0, 1, 1);
-    transform: scale3d(0, 1, 1);
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-    transition: transform 0.3s, -webkit-transform 0.3s;
-}
 
 
-.linkstyle:hover:before {
-    -webkit-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-}
 
 /*----------------------------------------*/
 /*  MEAN MENU CSS START
@@ -1262,7 +1222,7 @@ html {
 
 .hero-content h2 {
     font-weight: 500;
-    font-size: 130px;
+    font-size: 100px;
     text-transform: uppercase;
     text-align: center;
     color: var(--text-color);
