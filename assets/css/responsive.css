@@ -24,7 +24,7 @@ Version      : 1.0
     }
 
     .footer-top h2 {
-        font-size: 70px;
+        font-size: 50px;
         line-height: 1.4em;
     }
 
@@ -126,7 +126,7 @@ Version      : 1.0
     }
 
     .hero-content h2 {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .section-title {
@@ -182,7 +182,7 @@ Version      : 1.0
     }
 
     .footer-top h2 {
-        font-size: 70px;
+        font-size: 35px;
         line-height: 1em;
     }
 
@@ -338,7 +338,7 @@ Version      : 1.0
     }
 
     .footer-top h2 {
-        font-size: 40px;
+        font-size: 20px;
         line-height: 1.0em;
     }
 
@@ -367,7 +367,7 @@ Version      : 1.0
     }
 
     .section-title h2 {
-        font-size: 50px;
+        font-size: 35px;
         line-height: 60px;
     }
 
@@ -387,12 +387,16 @@ Version      : 1.0
 
 
     .about-content-part p {
-        font-size: 24px;
+        font-size: 18px;
         line-height: 1.4em;
     }
 
     .resume-area {
         padding-top: 50px;
+    }
+
+    .footer-top p {
+        font-size: 12px;
     }
 
     .skill-area {
@@ -472,8 +476,11 @@ Version      : 1.0
     }
 
     .hero-content h2 {
+        font-size: 45px;
+    }
 
-        font-size: 70px;
+    .hero-content p {
+        font-size: 12px;
     }
 
     .hero-image img {
