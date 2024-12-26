@@ -783,6 +783,11 @@ html {
     padding-bottom: 20px;
     text-align: center;
     color: var(--main-color);
+    transition: all 0.5s ease 0s;
+}
+
+.single-page-hero-area h2:hover{
+    color: var(--primary-color);
 }
 
 .single-page-hero-area p {
@@ -1783,6 +1788,11 @@ ul.extra-skills li i {
     text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.resume-box h2:hover{
+    color: var(--primary-color);
 }
 
 .resume-wrapper .resume-box:last-child {
